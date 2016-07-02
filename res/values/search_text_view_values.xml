@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="search_text_view">
+        <!--是否允许文本输入-->
+        <attr name="input_enable" format="boolean"/>
+        <!--放大镜-->
+        <attr name="magnifier_image" format="reference"/>
+        <!--自动清空图片, 如果给定，则表示需要自定清空的配置-->
+        <attr name="delete_image" format="reference"/>
+    </declare-styleable>
+</resources>
